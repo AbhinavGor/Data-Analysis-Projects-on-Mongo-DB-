@@ -1,0 +1,25 @@
+{
+  "name": "reg-counter",
+  "version": "1.0.0",
+  "description": "An app to show number of registrations on mongoDB based node applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "author": "Abhinav Gorantla",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.2",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "path": "^0.12.7",
+    "validator": "^13.1.1"
+  }
+}
